@@ -1,15 +1,17 @@
-# Practica construcción de función para resolver ecuaciones con estructura aditiva y multiplicativa combinadass
+# Practica construcción de función para resolver ecuaciones con estructura aditiva y multiplicativa combinadas
 
 ## Notas:
 
-### En el paso 1 se adiciona el opuesto de a en ambos lados de la ecuación para eliminar terminos sin incognita en el lado izquierdo
-### En el paso 2 se adiciona el opuesto de d*x en ambos lados de la ecuación para eliminar terminos con incognita en el lado derecho
-### En el tercer paso aplicamos factor común (primer caso de factorización) al lado izquierdo de la ecuación para despejar la incognita
-### En el paso 4 expresamos el producto de x (incognita) con los coeficientes conocidos y factorizados como cociente de numeros reales
-### En el paso 5 despejamos la incognita en el lado izquierdo de la ecuación
+### En el paso 1 se adiciona el opuesto de a en ambos lados de la ecuación para eliminar terminos sin incognita en el lado izquierdo.
+### En el paso 2 se adiciona el opuesto de d*x en ambos lados de la ecuación para eliminar terminos con incognita en el lado derecho.
+### En el tercer paso aplicamos factor común (primer caso de factorización) al lado izquierdo de la ecuación para despejar la incognita.
+### En el paso 4 expresamos el producto de x (incognita) con los coeficientes conocidos y factorizados como cociente de numeros reales.
+### En el paso 5 despejamos la incognita en el lado izquierdo de la ecuación.
+### En el paso 6 igualamos la incognita con el lado derecho de la ecuación que expresa las operaciones aditivas y multiplicativas para 
+### los coerficioentes conocidos.
 
 
-def ecuacion_aditiva(a, b, c, d):
+def ecuac_aditiva_multiplicativa(a, b, c, d):
 
 	x = 0
 	izq = a + (-a) + c*x   # Paso 1: Desarrollo de código para modelar el lado izquierdo de la ecuación
@@ -35,4 +37,4 @@ def ecuacion_aditiva(a, b, c, d):
 
 # Llamada a la función para resolver la ecuación 81 - 3x + 2 - 5x = 91 + 7x + 2 + 2x
 
-ecuacion_aditiva(81+2, 91+2, -3-5, 7+2)
+ecuac_aditiva_multiplicativa(81+2, 91+2, -3-5, 7+2)
