@@ -18,7 +18,11 @@
 
 # ----------------------------------------------------------------------------------------------------------------------------------------
 
-
+print()
+print()
+print("    PRÁCTICA PARA LA CONSTRUCCIÓN DE FUNCIÓN PARA RESOLVER ECUACIONES CON ESTRUCTURA ADITIVA Y MULTIPLICATIVA COMBINADAS")
+print()
+print()
 
 
 def ecuac_aditiva_multiplicativa(a, b, c, d):
@@ -42,9 +46,21 @@ def ecuac_aditiva_multiplicativa(a, b, c, d):
 
 	x = der   # ----------------------------- Paso 6 - final para el despeje de x como incognita a calcular
 
-	print("El valor de la incognita es: " , x) # -------- Impresión del resultado de la resolución de la ecuación (Valor de la incognita)
+	
+	print("------------------------------------------------------------------------------------------------------------------------------")
+	print()
+	print("    Resolucion de la ecuación ", a, " + ", c,"x  = ", b, " + ", d,"x") # --------- Impresión de la ecuación a resolver
 
+	print("    El valor de la incognita es: " , x) # -------- Impresión del resultado de la resolución de la ecuación (Valor de la incognita)
+	print()
+	print("------------------------------------------------------------------------------------------------------------------------------")
+	print()
 
+	
 # Llamada a la función para resolver la ecuación 81 - 3x + 2 - 5x = 91 + 7x + 2 + 2x
 
 ecuac_aditiva_multiplicativa(81+2, 91+2, -3-5, 7+2)
+
+# Llamada a la función para resolver la ecuación 121 - 9x + 5 + 65x + 13 = 68 + 45x - 3x + 92
+
+ecuac_aditiva_multiplicativa(121+5+13, 68+92, -9+65, 45-3)
