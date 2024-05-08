@@ -5,6 +5,9 @@
 #         PRÁCTICA PARA LA CONSTRUCCIÓN DE FUNCIÓN PARA RESOLVER ECUACIONES CON ESTRUCTURA ADITIVA Y MULTIPLICATIVA COMBINADAS
 
 
+#     Ecuación de la forma cx + a = dx + b, donde cx, dx son terminos con incognita y a, b son terminos sin incognita 
+
+
 ## Notas:
 
 ### En el paso 1 se adiciona el opuesto de a en ambos lados de la ecuación para eliminar terminos sin incognita en el lado izquierdo.
@@ -22,6 +25,7 @@ print()
 print()
 print("    PRÁCTICA PARA LA CONSTRUCCIÓN DE FUNCIÓN PARA RESOLVER ECUACIONES CON ESTRUCTURA ADITIVA Y MULTIPLICATIVA COMBINADAS")
 print()
+print("    Ecuación de la forma cx + a = dx + b, donde cx, dx son terminos con incognita y a, b son terminos sin incognita     ")
 print()
 
 
